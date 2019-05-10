@@ -10,7 +10,7 @@ google.pacManSound = true;
 google.browser = {};
 google.browser.engine = {}
 
-var spriteURL = './images/pacman-sprite.png';
+var spriteURL = '/pacman-sprite.png';
 
 google.dom.remove = function (a) {
 return a && a.parentNode && a.parentNode.removeChild(a)
